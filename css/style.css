@@ -68,14 +68,14 @@ li{
 	padding: 90px 0;
 }
 
-.portfolio-title{
+.title{
     padding-bottom: 8px;
     font-size: 32px;
     color: #000000;
     text-align: center;
 }
 
-.portfolio-text{
+.text{
     padding: 30px 0;
     text-align: center;
     color: #000000;
@@ -144,10 +144,47 @@ li{
     float: left;
 }
 
-.portfolio-border{
+.border{
 	height: 3px;
 	width: 70px;
 	background-color: #EC715F;
 	margin-right: auto;
  	margin-left: auto;
+}
+
+.icon{
+    width: 320px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.strength{
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.s-main:nth-child(1){
+    width: 320px;
+    float: left;
+    margin-right: 10px;
+}
+.s-main:nth-child(2){
+    width: 320px;
+    float: left;
+    margin-right: 10px;
+}
+.s-main:nth-child(3){
+    width: 320px;
+    float: left;
+}
+
+h3{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.feature{
+    padding: 90px 0;
 }
