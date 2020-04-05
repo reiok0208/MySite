@@ -37,13 +37,13 @@ li{
  	font-size: 16px;
  }
 
- .header-px{
+.header-px{
  	width: 1024px;
  	margin-right: auto;
  	margin-left: auto;
  }
 
- .main-visual{
+.main-visual{
  	width: 100%;
     height: 650px;
     text-align: center;
@@ -55,11 +55,99 @@ li{
 
 .mv-title {
     padding-top: 200px;
-    font-family: 'Raleway', sans-serif;
     font-size: 64px;
 }
 
- .mv-text {
+.mv-text {
     padding-top: 10px;
     font-size: 20px;
+}
+
+.portfolio{
+	background-color: #ECEFF1;
+	padding: 90px 0;
+}
+
+.portfolio-title{
+    padding-bottom: 8px;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+}
+
+.portfolio-text{
+    padding: 30px 0;
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+}
+
+.portfolio-image{
+	width: 920px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.pf-image:nth-child(1){
+	width: 300px;
+	height: 250px;
+    background-image: url(../img/sketch.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.pf-image:nth-child(2){
+	width: 300px;
+	height: 250px;
+    background-image: url(../img/websuku.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.pf-image:nth-child(3){
+	width: 300px;
+	height: 250px;
+    background-image: url(../img/write.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-bottom: 10px;
+}
+.pf-image:nth-child(4){
+	width: 300px;
+	height: 250px;
+    background-image: url(../img/webcamp.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-right: 10px;
+}
+.pf-image:nth-child(5){
+	width: 300px;
+	height: 250px;
+    background-image: url(../img/talk.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-right: 10px;
+}
+.pf-image:nth-child(6){
+	width: 300px;
+	height: 250px;
+    background-image: url(../img/webcamp-mother.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.portfolio-border{
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin-right: auto;
+ 	margin-left: auto;
 }
