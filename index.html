@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/dddaf9b8c0.js" crossorigin="anonymous"></script>
-	 <link rel="stylesheet" href="css/style.css">
-　　<title>WALS成果物</title>
+	  <link rel="stylesheet" href="css/style.css">
+    <title>WALS成果物</title>
 </head>
 <body>
   <header class="clearfix"><!-- ヘッダー開始 -->
     <div class="header-px">
       <div class="header-logo">
-        <img src="img/logo.png" alt="ロゴ画像" width="150" height="70">
+        <a href="#main-visual"><img src="img/logo.png" alt="ロゴ画像" width="156" height="70"></a>
       </div>
       <nav>
         <ul>
-          <li><a href="link1.html">Portfolio</a></li>
-          <li><a href="link2.html">Feature</a></li>
-          <li><a href="link3.html">Profile</a></li>
-          <li><a href="link3.html">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#feature">Feature</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header><!-- ヘッダー終了 -->
   
-  <div class="main-visual clearfix"><!-- メインビジュアル開始 -->
+  <div class="main-visual clearfix" id="main-visual"><!-- メインビジュアル開始 -->
     <h1 class="mv-title">Lorem Ipsum</h1>
     <p class="mv-text">simply dummy text of the printing</p>
   </div><!-- メインビジュアル終了 -->
 
-  <div class="portfolio clearfix"><!-- ポートフォリオ開始 -->
+  <div class="portfolio clearfix" id="portfolio"><!-- ポートフォリオ開始 -->
     <h2 class="title">Portfolio</h2>
     <div class="border"></div>
     <div class="text">
@@ -46,7 +46,7 @@
     </div>
   </div><!-- ポートフォリオ終了 -->
 
-  <div class="feature clearfix">
+  <div class="feature clearfix" id="feature"><!-- フューチャー開始 -->
     <h2 class="title">Feature</h2>
     <div class="border"></div>
     <div class="text">
@@ -57,29 +57,95 @@
     <div class="strength">
       <div class="s-main">
           <i class="fas fa-terminal icon"></i>
-          <div class="h3"><h3>Strength1</h3></div>
+          <div class="s-h3"><h3>Strength1</h3></div>
         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
       </div>
 
       <div class="s-main">
           <i class="fas fa-laptop-code icon"></i>
-          <div class="h3"><h3>Strength2</h3></div>
+          <div class="s-h3"><h3>Strength2</h3></div>
         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
       </div>
 
       <div class="s-main">
           <i class="fas fa-cog icon"></i>
-          <div class="h3"><h3>Strength3</h3></div>
+          <div class="s-h3"><h3>Strength3</h3></div>
         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
       </div>
     </div>
+  </div><!-- フューチャー終了 -->
 
+  
+  <div class="profile clearfix" id="profile"><!-- プロフィール開始 -->
+    <h2 class="title">Profile</h2>
+    <div class="border"></div>
+    <div class="text">
+      <p>It is a long established fact that a reader will be distracted by the readable</p>
+      <p>content of a page when looking at its layout.</p>
+      <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+    </div>
+    <div class="profile-main">
+      <div class="p-icon-main">
+        <div class="p-icon"></div>
+      </div>
+      <div class="p-ns-main">
+        <div class="p-n">
+          <h3 class="p-h3">MyName</h3>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+        </div>
+        <div class="p-s">
+          <h3 class="p-h3">MySkills</h3>
+          <p>HTML/CSS,JavaScript,JQuery,PhotoShop</p>
+        </div>
+      </div>
+    </div>
+  </div><!-- プロフィール終了 -->
 
-  </div>
+  <div class="contact clearfix" id="contact"><!-- コンタクト開始 -->
+    <h2 class="title">Contact</h2>
+    <div class="border"></div>
+    <div class="text">
+      <p>It is a long established fact that a reader will be distracted by the readable</p>
+      <p>content of a page when looking at its layout.</p>
+      <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+    </div>
+    <div class="contact-main">
 
+      <div class="contact-mt">
+        <div class="c-mt-main">
+          <div class="mail">
+            <h3 class="c-h3">Mail</h3>
+            <a class="contact-a" href="mailto:xxx@xxx.com" >xxx@xxx.com</a>
+          </div>
+          <div class="tel">
+            <h3 class="c-h3">Tel</h3>
+            <a class="contact-a" href="tel:00000000000">000-0000-0000</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-sns">
+        <div class="c-sns-main">
+          <h3 class="c-h3">SNS</h3>
+          <div class="facebook">
+            <i class="fab fa-facebook-square sns-icon"></i>
+          </div>
+          <div class="twitter">
+            <i class="fab fa-twitter sns-icon"></i>
+          </div>
+          <div class="instagram">
+            <i class="fab fa-instagram sns-icon"></i>
+          </div>
+        </div>
+      </div>
 
-
-
+    </div>
+  </div><!-- コンタクト終了 -->
+  
+  <footer class="clearfix"><!-- ヘッダー開始 -->
+    <div class="footer-px">
+      <p class="copyright">©︎ 2017 WebCamp</p>
+    </div>
+  </footer><!-- ヘッダー終了 -->
 
 </body>
 </html>
